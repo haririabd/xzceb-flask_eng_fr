@@ -8,10 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-#apikey = os.environ['apikey']
-apikey = "O12gtyqYW5-AmTxfIpRThuY_gzYZ4PQC10XaGRrA8-F_"
-#url = os.environ['url']
-url = "https://api.au-syd.language-translator.watson.cloud.ibm.com/instances/f6c924c2-d722-4c87-80aa-1afa1aa4cf66"
+apikey = os.environ['apikey']
+url = os.environ['url']
 
 language_translator = LanguageTranslatorV3(
     version='2018-05-01',
